@@ -1,11 +1,14 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  overflow: auto;
+
 }
 
 
 
 .App-header {
-  background-color: #282c34;
+  /* background-color: #282c34; */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -13,6 +16,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .App-link {
@@ -20,15 +24,81 @@
 }
 
 .mypiccss {
-  margin-top: -150px;
+  margin-top: -210px;
   border-radius: 50%;
-  height: 230px;
-  width: 200px;
+  border-width: 3px;
+  border-color: #715f5f;
+  height: 160px;
+  width: 140px;
 }
 
 .cfcss {
- width: 35px;
- height: 35px;
- padding-left: 20px;
+ width: 30px;
+ height: 30px;
+ padding-left: 30px;
  /* padding-top: 10px; */
+}
+
+.gitCss {
+  padding-left: 25px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#ffff;
+}
+
+.emailCss {
+  padding-left: 25px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#ffff;
+
+}
+
+.cfCss {
+  padding-left: 25px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#ffff;
+
+}
+
+.linkedinCss {
+  padding-left: 25px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#ffff;
+
+}
+
+.HECss {
+  padding-left: 25px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#ffff;
+
+}
+
+.CCCss {
+  padding-left: 25px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#ffff;
+
+}
+
+.appsHeadCss {
+  display: flex;
+  padding-top: 20px;
+}
+
+.copyFootCss {
+  padding-top: 200px;
+  font-size: 10px;
+  color: #ffff;
+} 
+
+.nameCss {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 22px;
 }

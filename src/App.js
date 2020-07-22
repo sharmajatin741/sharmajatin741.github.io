@@ -15,31 +15,63 @@ class App extends Component {
       <div>
       <div className="App">
       <header className="App-header">
-        <img src={mypic} className="mypiccss" alt="logo" />
-        <p>
+        <img src={mypic} className="mypiccss" alt="logo" border="1" />
+        <div className="nameCss">
           Jatin Sharma
-        </p>
+        </div>
+        <div className="appsHeadCss">
         <div>
-        <a href="https://github.com/sharmajatin741" title="Github">
+        <a href="https://github.com/sharmajatin741" title="Github" style={{textDecoration: "none"}}>
         <img src={github} className="cfcss" alt="logo" />
+        <div className="gitCss" >
+          github
+        </div>
         </a>
-        <a href="mailto:sharmajatin741@gmail.com" title="Email">
+        </div>
+        <div>
+        <a href="mailto:sharmajatin741@gmail.com" title="Email" style={{textDecoration: "none"}}>
         <img src={email} className="cfcss" alt="logo" />
+        <div className="emailCss">
+          email
+        </div>
         </a>
-        <a href="https://codeforces.com/profile/sharmajatin741" title="Codeforces">
-        <img src={codeforces} className="cfcss" alt="logo" />
-        </a>
-        <a href="https://www.linkedin.com/in/sharmajatin741/" title="Linkedin">
+        </div>
+        <div>
+        <a href="https://www.linkedin.com/in/sharmajatin741/" title="Linkedin" style={{textDecoration: "none"}}>
         <img src={linkedin} className="cfcss" alt="logo" />
+        <div className="linkedinCss">
+          linkedin
+        </div>
         </a>
+        </div>
+        <div>
+        <a href="https://codeforces.com/profile/sharmajatin741" title="Codeforces" style={{textDecoration: "none"}}>
+        <img src={codeforces} className="cfcss" alt="logo" />
+        <div className="cfCss">
+          codeforces
+        </div>
+        </a>
+        </div>
+        {/* <div>
         <a href="https://www.hackerearth.com/@sharmajatin741" title="Hackerearth">
         <img src={hackerearth} className="cfcss" alt="logo" />
         </a>
-        <a href="https://www.codechef.com/users/sharmajatin741" title="Codechef">
+        <div className="HECss">
+          Hackerearth
+        </div>
+        </div> */}
+        <div>
+        <a href="https://www.codechef.com/users/sharmajatin741" title="Codechef" style={{textDecoration: "none"}}>
         <img src={cc} className="cfcss" alt="logo" />
+        <div className="CCCss">
+          codechef
+        </div>
         </a>
         </div>
+        </div>
+      {/* <footer className="copyFootCss">&copy; 2020 Jatin Sharma.</footer> */}
       </header>
+      {/* <footer className="copyFootCss">&copy; 2020 Jatin Sharma.</footer> */}
     </div>
     </div>
     )
